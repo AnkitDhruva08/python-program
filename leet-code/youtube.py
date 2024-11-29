@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyADB7U5e-kjykuAsXsMX9A2QEvgu1bGj2w'
+api_key = 'you you tube api key'
 
 def video_comments(video_id):
     # List to store comments and replies
