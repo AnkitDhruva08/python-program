@@ -1,0 +1,11 @@
+arr = list(map(int, input("Enter List Of Values : ").split(',')))
+
+hashMasp = {}
+
+for i in arr:
+    if i in hashMasp:
+        hashMasp[i] += 1
+    else:
+        hashMasp[i] = 1 
+print('hashMasp ===<<<>>>', hashMasp)
+print('arrr <<<>>>>>', arr)
