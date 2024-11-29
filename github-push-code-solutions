@@ -1,0 +1,16 @@
+git status
+git add .
+git commit -m "commit"
+
+git push origin main 
+
+If there problem comming like 
+error: remote-curl: error reading command stream from git
+fatal: full write to remote helper failed: Broken pipe 
+
+Solutions :
+Follow The Command 
+1. git remote -v
+2. git remote set-url origin <correct-repository-url>
+3. git config --global credential.helper manager
+4. git credential-cache exit
